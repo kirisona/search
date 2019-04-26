@@ -1,78 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title>Weather</title>
-    <link rel="shortcut icon" href="favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.5/css/weather-icons.min.css">
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Search</title>
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<main>
     <div class="container">
-        <header>
-            <h1>CSS Weather Forecast <i class="wi wi-sunrise"></i></h1>
-        </header>
 
-        <main>
-            
-            <section class="block">
-                
-                <ul>
-                    <span class="city lisbon">
-                    <li>Lisbon<p>21 &deg;C <i class="wi wi-day-sunny"></i></p></li>
-                    </span>
+    <form action="#" class="form" id="btn-search">
+        <input type="search" required name="search" placeholder="Search...">
+        <button type="submit" form="btn-search"><img src="img/magnifier.svg"></button>
+    </form>
+    
 
-                    <span class="city paris">
-                    <li>Paris<p>11 &deg;C <i class="wi wi-night-sleet"></i></p></li>
-                    </span>
+<section>   
+<div class="blocks">
+    <div class="list">
+        <h2>people</h2>
+        <ul class="radius">
 
-                    <span class="city belgrade">
-                    <li>Belgrade<p>15 &deg;C <i class="wi wi-day-cloudy"></i></p></li>
-                    </span>
+            <span><img src="img/avatars/SaraSoueidan.jpeg" alt="avatar">
+            <li><a href="#">Sara Soueidan</a></li></span>
 
-                    <span class="city moscow">
-                    <li>Moscow<p>21 &deg;C <i class="wi wi-day-cloudy-high"></i></p></li>
-                    </span>
+            <span><img src="img/avatars/RachelSmith.png" alt="avatar"><li><a href="#">Rachel Smith</a></li></span>
 
-                    <span class="city aviv"> 
-                    <li>Tel Aviv<p>32 &deg;C <i class="wi wi-hot"></i></p></li>
-                    </span>
+            <span><img src="img/avatars/PeterFinlan.jpeg" alt="avatar"><li><a href="#">Peter Finlan</a></li></span>
 
-                    <span class="city cair">
-                    <li>Cair<p>21 &deg;C <i class="wi wi-day-sunny"></i></p></li>
-                    </span>
+            <span><img src="img/avatars/PatrickCox.png" alt="avatar"><li><a href="#">Patrick Cox</a></li></span>
 
-                    <span class="city york">
-                    <li>New York<p>17 &deg;C <i class="wi wi-day-sleet-storm"></i></p></li>
-                    </span>
+            <span><img src="img/avatars/TimHolman.jpeg" alt="avatar"><li><a href="#">Tim Holman</a></li></span>
 
-                    <span class="city delhi">
-                    <li>New Delhi<p>17 &deg;C <i class="wi wi-hail"></i></p></li>
-                    </span>  
+            <span><img src="img/avatars/ShaunDona.jpeg" alt="avatar"><li><a href="#">Shaun Dona</a></li></span>
 
-                    <span class="city san">
-                    <li>San francisco<p>15 &deg;C <i class="wi wi-day-sunny-overcast"></i></p></li>
-                    </span>
-
-                    <span class="city tokyo">
-                    <li>Tokyo<p>8 &deg;C <i class="wi wi-night-clear"></i></p></li>
-                    </span>
-
-                    <span class="city sydney"> 
-                    <li>Sydney<p>25 &deg;C <i class="wi wi-night-partly-cloudy"></i></i></li>
-                    </span>
-                </ul>
-
-            </section>
-
-        </main>
-
-        <footer>
-            
-            <p>Have a nice day and don't forget umbrella if you are in New Delhi now!</p>
-
-        </footer>
-
+        </ul>
     </div>
+
+    <div class="list">
+        <h2>popular</h2>
+        <ul>
+
+            <span><img src="img/thumbs/PagePreloadingEffect.png" alt="icon"><li><a href="#">Page Preloading Effect</a></li></span>
+
+            <span><img src="img/thumbs/ArrowNavigationStyles.png" alt="icon"><li><a href="#">Arrow Navigation Styles</a></li></span>
+
+            <span><img src="img/thumbs/HoverEffectsIdeasNew.png" alt="icon"><li><a href="#">Ideas for Subtle Hover Effects</a></li></span>
+
+            <span><img src="img/thumbs/FreebieHalcyonDays.png" alt="icon"><li><a href="#">Halcyon Days Template</a></li></span>
+
+            <span><img src="img/thumbs/ArticleIntroEffects.png" alt="icon"><li><a href="#">Inspiration for Article Intro Effects</a></li></span>
+
+            <span><img src="img/thumbs/DraggableDualViewSlideshow.png" alt="icon"><li><a href="#">Draggable Dual-View Slideshow</a></li></span>
+
+        </ul>
+    </div>
+
+    <div class="list">
+        <h2>recent</h2>
+        <ul>
+            <span><img src="img/thumbs/TooltipStylesInspiration.png" alt="icon"><li><a href="#">Tooltip Styles Inspiration</a></li></span>
+
+            <span><img src="img/thumbs/AnimatedHeaderBackgrounds.png" alt="icon"><li><a href="#">Animated Background Headers</a></li></span>
+
+            <span><img src="img/thumbs/OffCanvas.png" alt="icon"><li><a href="#">Off-Canvas Menu Effects</a></li></span>
+
+           <span><img src="img/thumbs/TabStyles.png" alt="icon"><li><a href="#">Tab Styles Inspiration</a></li></span>
+
+            <span><img src="img/thumbs/ResponsiveSVGs.png" alt="icon"><li><a href="#">Make SVGs Responsive with CSS</a></li></span>
+
+            <span><img src="img/thumbs/NotificationStyles.png" alt="icon"><li><a href="#">Notification Styles Inspiration</a></li></span>
+
+        </ul>
+    </div>
+  </div>
+</section>
+  </div> 
+</main>
 </body>
 </html>

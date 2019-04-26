@@ -3,164 +3,149 @@
 }
 
 body {
-    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-    color: #fff;
-}
-
-li {
-    list-style-type: none;
-   
-    
-}
-
-i {
-    margin: 0;
-}
-
-h1 {
-    position: relative;
-    left: 225px; 
-    font-size: 25px;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
 }
 
 .container {
     display: block;
-    box-sizing: border-box;
-    width: 1468px;
-    height: 963px;
-    background-color: #3399cc;
-    border: 20px solid #2b81ac;
-    margin: 0 auto;  
+    width: 85%;
+    margin: 0 auto;
 }
 
-.block {
+.form {
     display: flex;
-    box-sizing: border-box;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+input {
+    width: 75%;
+    position: relative;
+    left: -0.25em;
+}
+
+form img {
+    width: 85px;   
+}
+
+form img:hover {
+    width: 95px;
+}
+
+button {
+    border-color: transparent;
+    background-color: #f1f1f1;
+    vertical-align: middle;
     margin: 0 auto;
-    height: 620px;
-    width: 980px;
-    border: 5px solid #fff;
-    font-size: 0;
+    position: relative;
+    left: -1em;
+}
+
+[type="search"] {
+    border-color: transparent;
+    background-color: #f1f1f1;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+[type="search"]:active {
+    border-color: transparent;
+}
+
+[placeholder] {
+    font-weight: 700;
+    cursor: text;
+    font-size: 85px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #c2c2c2;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #c2c2c2;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #c2c2c2;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #c2c2c2;
+}
+
+[type="search"]:hover {
+    color: #ec5a62;
+}
+
+a {
+    display: inline-block;
+    -webkit-align-items: center;
+            align-items: center;
+    text-decoration: none;
+    color: #c2c2c2;
+    padding-left: 1vw;
     
 }
 
-ul {list-style: none;
-    padding: 0;
-    margin: 0;
+a:hover {
+    color: #ec5a62;
 }
 
-p {
-    margin: 0;
-}
 
-span p, span i {
-    opacity: 0.7;
-}
-
-span {
-    padding-top: 3%;
-}
-
-span p {
-    padding-top: 25px;
-}
-
-.block .city {
-    display: inline-block;
-    flex-basis: 25%;
-    width: 25%;
-    height: 25%;
-    font-size: 23px;
+.blocks {
+    display: flex;
+    -webkit-justify-content: space-around;
+            justify-content: space-around;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
-    text-align: center;
+}
+
+.list {
+    width: 33%;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #c3c3c3;
+    font-size: 15px;
+    font-weight: 900; 
+    display: flex; 
+    padding-left: 40px;
+}
+
+.radius img {
+    border-radius: 50%;
+}
+
+span {
+    display: inline-block;
+    display: flex;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: #ebebed;
+    width: 85%;
+    height: 75px;
+    margin-top: 5px;
     -webkit-align-items: center;
             align-items: center;
-    margin: 0 auto;
+    font-size: 15px;
+    font-weight: 600;
 }
 
-.container .city: {
-    opacity: 1;
+span:hover {
+    background-color: #e4e4e6;
+    color: #ec5a62;
 }
 
-.block .city:first-of-type {
-    width: 50%;
-    background-color: #3399cc;
-    border-right: 5px solid #fff;
-    border-bottom: 5px solid #fff;
+ul {
+    list-style-type: none;
 }
 
-.block .city:last-of-type {
-    width: 100%;
-    background-color: #666699;
-}
-
-.block .paris {
-    background-color: #33cccc;
-    border-right: 5px solid #fff;
-    border-bottom: 5px solid #fff;
-}
-
-.block .belgrade {
-    background-color: #996699;
-    border-bottom: 5px solid #fff;
-}
-
-.block .moscow {
-    background-color: #c24747;
-    border-right: 5px solid #fff;
-    border-bottom: 5px solid #fff;
-}
-
-.block .aviv {
-    background-color: #e2674a;
-    border-right: 5px solid #fff;
-    border-bottom: 5px solid #fff;
-}
-
-.block .cair {
-    background-color: #ffcc66;
-    border-right: 5px solid #fff;
-    border-bottom: 5px solid #fff;
-}
-
-.block .york {
-    background-color: #99cc99;
-    border-bottom: 5px solid #fff;
-}
-
-.block .delhi {
-    background-color: #669999;
-    border-right: 5px solid #fff;
-    border-bottom: 5px solid #fff;
-}
-
-.block .city:nth-of-type(9) {
-    width: 50%;
-    border-right: 5px solid #fff;
-    border-bottom: 5px solid #fff;
-    background-color: #cc6699;
-}
-
-.block .tokyo {
-    background-color: #339966;
-    border-bottom: 5px solid #fff;
-}
-
-
-
-footer {
-    font-size: 20px;
-    position: relative;
-    top: 35px;
-    left: 225px; 
-}
-
-ul:hover > li {
-    opacity: 0.7;
-}
-
-ul > li:hover {
-    opacity: 1;
+span img {
+    -webkit-align-items: center;
+            align-items: center;
+        padding-left: 0.4em;
 }
