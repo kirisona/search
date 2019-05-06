@@ -32,7 +32,7 @@ form img {
 }
 
 form img:hover {
-    width: 95px;
+    transform: scale(1.1);
 }
 
 button {
